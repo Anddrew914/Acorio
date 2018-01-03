@@ -5,3 +5,18 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+body {
+  display: flex;
+ flex-direction: column;
+ height: 100vh;
+}
+* {
+  box-sizing: border-box;
+}
+.footer {
+  flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+  background: #121C23;
+  color: white;
+  padding: 20px
+}
