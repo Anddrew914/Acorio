@@ -68,6 +68,9 @@ footer {
   float: left;
   padding-left: 100px;
   color: white;
+  font-family: "source-sans-pro",sans-serif;
+  font-weight: 300;
+  -moz-osx-font-smoothing: grayscale;
 }
 .footer-icons {
   padding-right: 100px;
