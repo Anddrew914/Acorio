@@ -22,6 +22,8 @@ body {
 
 .main-container {
   margin: 2% 10%;
+  color: white;
+  font-family: "mr-eaves-xl-modern", sans-serif;
 }
 
 .eBook {
@@ -64,8 +66,13 @@ footer {
 }
 .footer-text {
   float: left;
+  padding-left: 100px;
   color: white;
 }
 .footer-icons {
+  padding-right: 100px;
   float: right;
+}
+.footer-icon {
+  padding-right: 20px;
 }
