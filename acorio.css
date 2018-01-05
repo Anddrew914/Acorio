@@ -8,7 +8,7 @@ body {
   font-family: "source-sans-pro",sans-serif;
   font-size: 18px;
   font-weight: 300;
-  background: url(https://cdn2.hubspot.net/hubfs/237944/landing/bg-landing.jpg?t=1507056007906) no-repeat center center fixed;
+  background: url(./images/bg-landing.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,13 +46,7 @@ body {
   width: 100%;
 }
 
-.footer-text {
-  float: left;
-  color: white;
-  margin-bottom: 0;
-}
-
-.footer {
+footer {
     /* position: absolute; */
     bottom: 0;
     left: 0;
@@ -64,6 +58,7 @@ body {
 .footer-text {
   float: left;
   padding-left: 100px;
+  margin-bottom: 0;
   color: white;
   font-family: "source-sans-pro",sans-serif;
   font-weight: 300;
